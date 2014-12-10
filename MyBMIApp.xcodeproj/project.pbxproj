@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC9121A91A36C3B200CF71A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9121A81A36C3B200CF71A4 /* AppDelegate.swift */; };
+		AC9121AB1A36C3B200CF71A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9121AA1A36C3B200CF71A4 /* ViewController.swift */; };
+		AC9121AE1A36C3B200CF71A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9121AC1A36C3B200CF71A4 /* Main.storyboard */; };
+		AC9121B01A36C3B200CF71A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9121AF1A36C3B200CF71A4 /* Images.xcassets */; };
+		AC9121B31A36C3B200CF71A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9121B11A36C3B200CF71A4 /* LaunchScreen.xib */; };
+		AC9121BF1A36C3B200CF71A4 /* MyBMIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9121BE1A36C3B200CF71A4 /* MyBMIAppTests.swift */; };
+		ACEDDC8A1A37674600081BAE /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDDC891A37674600081BAE /* ResultViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC9121B91A36C3B200CF71A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC91219B1A36C3B200CF71A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9121A21A36C3B200CF71A4;
+			remoteInfo = MyBMIApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC9121A31A36C3B200CF71A4 /* MyBMIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBMIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9121A71A36C3B200CF71A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9121A81A36C3B200CF71A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC9121AA1A36C3B200CF71A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC9121AD1A36C3B200CF71A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC9121AF1A36C3B200CF71A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC9121B21A36C3B200CF71A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AC9121B81A36C3B200CF71A4 /* MyBMIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBMIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9121BD1A36C3B200CF71A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9121BE1A36C3B200CF71A4 /* MyBMIAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBMIAppTests.swift; sourceTree = "<group>"; };
+		ACEDDC891A37674600081BAE /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9121A01A36C3B200CF71A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9121B51A36C3B200CF71A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC91219A1A36C3B200CF71A4 = {
+			isa = PBXGroup;
+			children = (
+				AC9121A51A36C3B200CF71A4 /* MyBMIApp */,
+				AC9121BB1A36C3B200CF71A4 /* MyBMIAppTests */,
+				AC9121A41A36C3B200CF71A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9121A41A36C3B200CF71A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9121A31A36C3B200CF71A4 /* MyBMIApp.app */,
+				AC9121B81A36C3B200CF71A4 /* MyBMIAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9121A51A36C3B200CF71A4 /* MyBMIApp */ = {
+			isa = PBXGroup;
+			children = (
+				AC9121A81A36C3B200CF71A4 /* AppDelegate.swift */,
+				AC9121AA1A36C3B200CF71A4 /* ViewController.swift */,
+				ACEDDC891A37674600081BAE /* ResultViewController.swift */,
+				AC9121AC1A36C3B200CF71A4 /* Main.storyboard */,
+				AC9121AF1A36C3B200CF71A4 /* Images.xcassets */,
+				AC9121B11A36C3B200CF71A4 /* LaunchScreen.xib */,
+				AC9121A61A36C3B200CF71A4 /* Supporting Files */,
+			);
+			path = MyBMIApp;
+			sourceTree = "<group>";
+		};
+		AC9121A61A36C3B200CF71A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC9121A71A36C3B200CF71A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC9121BB1A36C3B200CF71A4 /* MyBMIAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9121BE1A36C3B200CF71A4 /* MyBMIAppTests.swift */,
+				AC9121BC1A36C3B200CF71A4 /* Supporting Files */,
+			);
+			path = MyBMIAppTests;
+			sourceTree = "<group>";
+		};
+		AC9121BC1A36C3B200CF71A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC9121BD1A36C3B200CF71A4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9121A21A36C3B200CF71A4 /* MyBMIApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9121C21A36C3B200CF71A4 /* Build configuration list for PBXNativeTarget "MyBMIApp" */;
+			buildPhases = (
+				AC91219F1A36C3B200CF71A4 /* Sources */,
+				AC9121A01A36C3B200CF71A4 /* Frameworks */,
+				AC9121A11A36C3B200CF71A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBMIApp;
+			productName = MyBMIApp;
+			productReference = AC9121A31A36C3B200CF71A4 /* MyBMIApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC9121B71A36C3B200CF71A4 /* MyBMIAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9121C51A36C3B200CF71A4 /* Build configuration list for PBXNativeTarget "MyBMIAppTests" */;
+			buildPhases = (
+				AC9121B41A36C3B200CF71A4 /* Sources */,
+				AC9121B51A36C3B200CF71A4 /* Frameworks */,
+				AC9121B61A36C3B200CF71A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9121BA1A36C3B200CF71A4 /* PBXTargetDependency */,
+			);
+			name = MyBMIAppTests;
+			productName = MyBMIAppTests;
+			productReference = AC9121B81A36C3B200CF71A4 /* MyBMIAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC91219B1A36C3B200CF71A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Shichida Hitohiko";
+				TargetAttributes = {
+					AC9121A21A36C3B200CF71A4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AC9121B71A36C3B200CF71A4 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AC9121A21A36C3B200CF71A4;
+					};
+				};
+			};
+			buildConfigurationList = AC91219E1A36C3B200CF71A4 /* Build configuration list for PBXProject "MyBMIApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC91219A1A36C3B200CF71A4;
+			productRefGroup = AC9121A41A36C3B200CF71A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9121A21A36C3B200CF71A4 /* MyBMIApp */,
+				AC9121B71A36C3B200CF71A4 /* MyBMIAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9121A11A36C3B200CF71A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9121AE1A36C3B200CF71A4 /* Main.storyboard in Resources */,
+				AC9121B31A36C3B200CF71A4 /* LaunchScreen.xib in Resources */,
+				AC9121B01A36C3B200CF71A4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9121B61A36C3B200CF71A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC91219F1A36C3B200CF71A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9121AB1A36C3B200CF71A4 /* ViewController.swift in Sources */,
+				AC9121A91A36C3B200CF71A4 /* AppDelegate.swift in Sources */,
+				ACEDDC8A1A37674600081BAE /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9121B41A36C3B200CF71A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9121BF1A36C3B200CF71A4 /* MyBMIAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC9121BA1A36C3B200CF71A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9121A21A36C3B200CF71A4 /* MyBMIApp */;
+			targetProxy = AC9121B91A36C3B200CF71A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC9121AC1A36C3B200CF71A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9121AD1A36C3B200CF71A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC9121B11A36C3B200CF71A4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9121B21A36C3B200CF71A4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9121C01A36C3B200CF71A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC9121C11A36C3B200CF71A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC9121C31A36C3B200CF71A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyBMIApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC9121C41A36C3B200CF71A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyBMIApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC9121C61A36C3B200CF71A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyBMIAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBMIApp.app/MyBMIApp";
+			};
+			name = Debug;
+		};
+		AC9121C71A36C3B200CF71A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyBMIAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBMIApp.app/MyBMIApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC91219E1A36C3B200CF71A4 /* Build configuration list for PBXProject "MyBMIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9121C01A36C3B200CF71A4 /* Debug */,
+				AC9121C11A36C3B200CF71A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9121C21A36C3B200CF71A4 /* Build configuration list for PBXNativeTarget "MyBMIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9121C31A36C3B200CF71A4 /* Debug */,
+				AC9121C41A36C3B200CF71A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9121C51A36C3B200CF71A4 /* Build configuration list for PBXNativeTarget "MyBMIAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9121C61A36C3B200CF71A4 /* Debug */,
+				AC9121C71A36C3B200CF71A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC91219B1A36C3B200CF71A4 /* Project object */;
+}

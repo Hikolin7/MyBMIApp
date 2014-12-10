@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="t42-dz-VpO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyBMIApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="身長" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NDp-49-wG2">
+                                <rect key="frame" x="250" y="260" width="100" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="jzK-EJ-f8L"/>
+                                    <constraint firstAttribute="width" constant="100" id="xKr-iL-YAg">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="110"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kL1-1d-Fza">
+                                <rect key="frame" x="358" y="266" width="30" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="FS8-LP-mH0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kg" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JH6-yH-4ax">
+                                <rect key="frame" x="358" y="311" width="30" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="BcY-NG-Op0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="あなたの身長と体重を入力してください。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bM9-Nk-cRQ">
+                                <rect key="frame" x="158" y="202" width="285" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="体重" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b0J-HQ-OAL">
+                                <rect key="frame" x="250" y="305" width="100" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ran-qf-csv">
+                                <rect key="frame" x="250" y="370" width="100" height="40"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="W9a-GJ-1Ku">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="110"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="40" id="vKa-Ec-TTK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="診断する">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="mGB-7l-c94" kind="show" identifier="showResult" id="4fP-em-jMo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="肥満度チェック" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhm-PI-nw8">
+                                <rect key="frame" x="174" y="139" width="252" height="43"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact">
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20784315466880798" green="0.729411780834198" blue="0.76078438758850098" alpha="1" colorSpace="deviceRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="vhm-PI-nw8" secondAttribute="centerX" id="2JY-dG-fX9"/>
+                            <constraint firstItem="NDp-49-wG2" firstAttribute="top" secondItem="bM9-Nk-cRQ" secondAttribute="bottom" constant="40" id="3FP-NS-Qnn">
+                                <variation key="heightClass=compact" constant="18"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                            </constraint>
+                            <constraint firstItem="JH6-yH-4ax" firstAttribute="leading" secondItem="b0J-HQ-OAL" secondAttribute="trailing" constant="8" id="8OK-ev-Bcw"/>
+                            <constraint firstItem="NDp-49-wG2" firstAttribute="height" secondItem="b0J-HQ-OAL" secondAttribute="height" id="9ZZ-xg-gtU"/>
+                            <constraint firstItem="kL1-1d-Fza" firstAttribute="leading" secondItem="NDp-49-wG2" secondAttribute="trailing" constant="8" id="9q4-BY-iPh"/>
+                            <constraint firstAttribute="centerX" secondItem="b0J-HQ-OAL" secondAttribute="centerX" id="9sT-Yp-1fy"/>
+                            <constraint firstAttribute="centerX" secondItem="Ran-qf-csv" secondAttribute="centerX" id="FZK-GN-mAA"/>
+                            <constraint firstAttribute="centerX" secondItem="NDp-49-wG2" secondAttribute="centerX" id="KoN-3i-x8l"/>
+                            <constraint firstItem="vhm-PI-nw8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="75" id="N67-OE-QWv">
+                                <variation key="heightClass=compact" constant="25"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="200"/>
+                            </constraint>
+                            <constraint firstItem="b0J-HQ-OAL" firstAttribute="top" secondItem="NDp-49-wG2" secondAttribute="bottom" constant="10" id="WfU-m4-wZ0"/>
+                            <constraint firstItem="bM9-Nk-cRQ" firstAttribute="top" secondItem="vhm-PI-nw8" secondAttribute="bottom" constant="20" id="Xs2-eT-VcJ">
+                                <variation key="heightClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="b0J-HQ-OAL" firstAttribute="centerY" secondItem="JH6-yH-4ax" secondAttribute="centerY" id="ZSS-ko-Aqj"/>
+                            <constraint firstItem="NDp-49-wG2" firstAttribute="centerY" secondItem="kL1-1d-Fza" secondAttribute="centerY" id="aNw-00-gXr"/>
+                            <constraint firstItem="JH6-yH-4ax" firstAttribute="width" secondItem="kL1-1d-Fza" secondAttribute="width" id="k1Q-kd-tlj"/>
+                            <constraint firstItem="NDp-49-wG2" firstAttribute="width" secondItem="b0J-HQ-OAL" secondAttribute="width" id="lSS-Mf-ews"/>
+                            <constraint firstAttribute="centerX" secondItem="bM9-Nk-cRQ" secondAttribute="centerX" id="rKh-ZN-u28"/>
+                            <constraint firstItem="Ran-qf-csv" firstAttribute="top" secondItem="b0J-HQ-OAL" secondAttribute="bottom" constant="30" id="sfL-Cd-heF">
+                                <variation key="heightClass=compact" constant="15"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="42"/>
+                            </constraint>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="MZU-VK-fNd" appends="YES" id="yHL-02-qxa"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="NbI-8m-l86"/>
+                    <connections>
+                        <outlet property="textFieldHight" destination="NDp-49-wG2" id="Fw3-rK-8hm"/>
+                        <outlet property="textFieldWeight" destination="b0J-HQ-OAL" id="nFL-tD-hOc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="MZU-VK-fNd">
+                    <connections>
+                        <action selector="onTap:" destination="BYZ-38-t0r" id="iWu-TB-wM1"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1117" y="407"/>
+        </scene>
+        <!--診断結果-->
+        <scene sceneID="Vkh-yU-Yws">
+            <objects>
+                <viewController id="mGB-7l-c94" customClass="ResultViewController" customModule="MyBMIApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y3x-zZ-455"/>
+                        <viewControllerLayoutGuide type="bottom" id="dhH-QS-rSw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="exm-Yx-A23">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今の体を保ちましょう。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jI-BR-tH5">
+                                <rect key="frame" x="146" y="146" width="308" height="34"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="肥満度6%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="te5-XD-faa">
+                                <rect key="frame" x="243" y="215" width="114" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="肥満度が20%を超えると太っています。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGc-oW-Mb2">
+                                <rect key="frame" x="164" y="308" width="273" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="理想体重 64Kg" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVF-c3-hTS">
+                                <rect key="frame" x="218" y="257" width="165" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2078431547" green="0.72941178080000002" blue="0.7607843876" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="tVF-c3-hTS" secondAttribute="centerX" id="3LC-JK-PzH"/>
+                            <constraint firstAttribute="centerX" secondItem="te5-XD-faa" secondAttribute="centerX" id="8sm-J6-feN"/>
+                            <constraint firstAttribute="centerX" secondItem="8jI-BR-tH5" secondAttribute="centerX" id="9RH-RJ-Hsa"/>
+                            <constraint firstItem="8jI-BR-tH5" firstAttribute="top" secondItem="Y3x-zZ-455" secondAttribute="bottom" constant="82" id="Pz9-jT-0Oz">
+                                <variation key="heightClass=compact" constant="22"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="200"/>
+                            </constraint>
+                            <constraint firstItem="te5-XD-faa" firstAttribute="top" secondItem="8jI-BR-tH5" secondAttribute="bottom" constant="35" id="fp0-Ez-NOY">
+                                <variation key="heightClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="tVF-c3-hTS" firstAttribute="top" secondItem="te5-XD-faa" secondAttribute="bottom" constant="12" id="hfk-tX-acL">
+                                <variation key="heightClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="cGc-oW-Mb2" firstAttribute="top" secondItem="tVF-c3-hTS" secondAttribute="bottom" constant="21" id="jpN-h7-rl7">
+                                <variation key="heightClass=compact" constant="13"/>
+                            </constraint>
+                            <constraint firstAttribute="centerX" secondItem="cGc-oW-Mb2" secondAttribute="centerX" id="s2R-CM-uvA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="診断結果" id="kUw-LL-im0"/>
+                    <connections>
+                        <outlet property="BMILabel" destination="te5-XD-faa" id="48s-Uv-cUO"/>
+                        <outlet property="IdealWeightLabel" destination="tVF-c3-hTS" id="bVw-mc-QnN"/>
+                        <outlet property="msgLabel" destination="8jI-BR-tH5" id="mvh-9f-p1N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zzJ-qW-fUA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1755" y="407"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QFN-uA-9Yf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="t42-dz-VpO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lSK-fe-Ysd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Kbl-4c-sCD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="546-VY-0SB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="420" y="407"/>
+        </scene>
+    </scenes>
+</document>
